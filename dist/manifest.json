@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "VTEST",
+  "version": "1.0",
+
+  "description": "V3D File Reader",
+
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>", "tabs"],
+
+  "background": {
+    "page": "back.html"
+  },
+
+  "content_security_policy": "script-src 'self' https://www.math.ualberta.ca/~bowman/asygl.js; object-src 'self'"
+}
